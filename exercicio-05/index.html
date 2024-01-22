@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Exercício 05: Formulário de Inscrição</title>
+</head>
+
+<body>
+    <h1>Formulário de Inscrição</h1>
+
+    <form>
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="whatsapp">WhatsApp:</label><br>
+            <input type="tel" name="whatsapp" id="whatsapp" required >
+        </div>
+        
+        <br>
+
+        <div>
+            <label>Área de atuação:</label><br>
+            <input type="radio" name="atuacao" id="desenvolvimento" value="desenvolvimento" required>
+            <label for="desenvolvimento">Desenvolvimento</label>
+            <input type="radio" name="atuacao" id="qa" value="qa" required>
+            <label for="qa">Quality Assurance(QA)</label>
+            <input type="radio" name="atuacao" id="analisededados" value="analisededados" required>
+            <label for="analisededados">Análise de Dados</label>
+            <input type="radio" name="atuacao" id="infraestrutura" value="infraestrutura" required>
+            <label for="infraestrutura">Infraestrutura</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="obs">Observações:</label><br>
+            <textarea name="obs" id="obs" cols="30" rows="5"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="checkbox" name="novidades" id="novidades">
+            <label for="novidades">Desejo receber novidades e ofertas por email.</label>
+        </div>
+
+        <br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
